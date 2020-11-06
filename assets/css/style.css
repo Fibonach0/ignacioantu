@@ -530,6 +530,9 @@ section {
 
 .portfolio .portfolio-item {
     margin-bottom: 30px;
+    width: 152px;
+    height: 152px;
+    border-radius: 50%;
 }
 
 .portfolio #portfolio-flters {
