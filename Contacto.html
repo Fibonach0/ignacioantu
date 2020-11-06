@@ -33,141 +33,138 @@
 </head>
 
 <body>
+    <main id="main">
 
-    <!-- ======= Mobile nav toggle button ======= -->
-    <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+        <!--=======M obile nav toggle button=======- ->
+        <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
 
-    <!-- ======= Header ======= -->
-    <header id="header">
-        <div class="d-flex flex-column">
+        <!-- ======= Header ======= -->
+        <header id="header">
+            <div class="d-flex flex-column">
 
-            <div class="profile">
-                <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
-                <h1 class="text-light"><a href="index.html">Ignacio Antuña</a></h1>
-                <div class="social-links mt-3 text-center">
-                    <a href="https://twitter.com/Ignacio_antu" class="twitter"><i class="bx bxl-twitter"></i></a>
-                    <a href="https://www.facebook.com/Pyro.A" class="facebook"><i class="bx bxl-facebook"></i></a>
-                    <a href="https://www.instagram.com/igna.antu/" class="instagram"><i class="bx bxl-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/ignacio-antuña-24093373/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-                    <a href="https://discord.gg/Rp6KzQJ" class="Discord"><span class="iconify" data-icon="bx:bxl-discord" data-inline="false"></span></a>
+                <div class="profile">
+                    <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+                    <h1 class="text-light"><a href="index.html">Ignacio Antuña</a></h1>
+                    <div class="social-links mt-3 text-center">
+                        <a href="https://twitter.com/Ignacio_antu" class="twitter"><i class="bx bxl-twitter"></i></a>
+                        <a href="https://www.facebook.com/Pyro.A" class="facebook"><i class="bx bxl-facebook"></i></a>
+                        <a href="https://www.instagram.com/igna.antu/" class="instagram"><i class="bx bxl-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/ignacio-antuña-24093373/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                        <a href="https://discord.gg/Rp6KzQJ" class="Discord"><span class="iconify" data-icon="bx:bxl-discord" data-inline="false"></span></a>
+                    </div>
                 </div>
+                <!-- .nav-menu -->
+                <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
             </div>
+        </header>
+        <!-- End Header -->
+        <!-- ======= Contact Section ======= -->
+        <section id="contact" class="contact">
+            <div class="container">
 
-            <nav class="nav-menu">
+                <div class="section-title">
+                    <h2>Contacto</h2>
+                    <p> En el caso que me quieran enviar un mensaje via e-mail lo pueden hacer acá abajo, está mi número de teléfono pero preferiría que me contactes mediante Discord.</p>
+                </div>
 
-            </nav>
-            <!-- .nav-menu -->
-            <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+                <div class="row" data-aos="fade-in">
 
-        </div>
-    </header>
-    <!-- End Header -->
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-        <div class="container">
+                    <div class="col-lg-5 d-flex align-items-stretch">
+                        <div class="info">
+                            <div class="address">
+                                <i class="icofont-google-map"></i>
+                                <h4>Ubicación</h4>
+                                <p>El Talar, Buenos Aires, Argentina</p>
+                            </div>
 
-            <div class="section-title">
-                <h2>Contacto</h2>
-                <p> En el caso que me quieran enviar un mensaje via e-mail lo pueden hacer acá abajo, también dejo una zona aproximada a mi vivienda pero tengo que aclarar que tengo vehículo propio por lo cual la movilidad no sería nunca un problema.</p>
-            </div>
+                            <div class="email">
+                                <i class="icofont-envelope"></i>
+                                <h4>Email:</h4>
+                                <a href="mailto:ignacio.antu@gmail.com">
+                                    <p>ignacio.antu@gmail.com</p>
+                                </a>
+                            </div>
 
-            <div class="row" data-aos="fade-in">
-
-                <div class="col-lg-5 d-flex align-items-stretch">
-                    <div class="info">
-                        <div class="address">
-                            <i class="icofont-google-map"></i>
-                            <h4>Ubicación</h4>
-                            <p>El Talar, Buenos Aires, Argentina</p>
+                            <div class="phone">
+                                <i class="icofont-phone"></i>
+                                <h4>contacto:</h4>
+                                <a href="https://api.whatsapp.com/send?phone=541128524957&text=%20">
+                                    <p>+54 9 11 2852 4957</p>
+                                </a>
+                            </div>
                         </div>
 
-                        <div class="email">
-                            <i class="icofont-envelope"></i>
-                            <h4>Email:</h4>
-                            <a href="mailto:ignacio.antu@gmail.com">
-                                <p>ignacio.antu@gmail.com</p>
-                            </a>
-                        </div>
+                    </div>
 
-                        <div class="phone">
-                            <i class="icofont-phone"></i>
-                            <h4>contacto:</h4>
-                            <a href="https://api.whatsapp.com/send?phone=541128524957&text=%20">
-                                <p>+54 9 11 2852 4957</p>
-                            </a>
-                        </div>
+                    <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+                        <form method="post" role="form" class="email-form">
+                            <div class="row">
+                                <div class="form-group col-md-6 ">
+                                    <label for="name">Nombre</label>
+                                    <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Por favor ingresar mínimo 3 dígitos" />
+                                    <div class="validate "></div>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="name">Email</label>
+                                    <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Por favor ingresar un email válido" />
+                                    <div class="validate"></div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Motivo</label>
+                                <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:8" data-msg="Por favor el motivo tiene que tener 8 dígitos mínimo" />
+                                <div class="validate "></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="name ">Mensaje</label>
+                                <textarea class="form-control" name="comments" id="comments" rows="13" data-rule="required" data-msg="Dejame un mensaje"></textarea>
+                                <div class="validate"></div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="loading ">Cargando</div>
+                                <div class="error-message"></div>
+                                <div class="sent-message">Tu mensaje fué enviado correctamente. Muchas gracias!</div>
+                            </div>
+                            <div class="text-center"><input type="button" value="Send Email" onclick="sendEmail()" /></div>
+                        </form>
                     </div>
 
                 </div>
+                <!-- Email sending-->
 
-                <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                    <form method="post" role="form" class="email-form">
-                        <div class="row">
-                            <div class="form-group col-md-6 ">
-                                <label for="name">Nombre</label>
-                                <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Por favor ingresar mínimo 3 dígitos" />
-                                <div class="validate "></div>
-                            </div>
-                            <div class="form-group col-md-6">
-                                <label for="name">Email</label>
-                                <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Por favor ingresar un email válido" />
-                                <div class="validate"></div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="name">Motivo</label>
-                            <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:8" data-msg="Por favor el motivo tiene que tener 8 dígitos mínimo" />
-                            <div class="validate "></div>
-                        </div>
-                        <div class="form-group">
-                            <label for="name ">Mensaje</label>
-                            <textarea class="form-control" name="comments" id="comments" rows="13" data-rule="required" data-msg="Dejame un mensaje"></textarea>
-                            <div class="validate"></div>
-                        </div>
-                        <div class="mb-3">
-                            <div class="loading ">Cargando</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">Tu mensaje fué enviado correctamente. Muchas gracias!</div>
-                        </div>
-                        <div class="text-center"><input type="button" value="Send Email" onclick="sendEmail()" /></div>
-                    </form>
-                </div>
+                <script src="https://smtpjs.com/v3/smtp.js"></script>
+                <script type="text/javascript">
+                    function sendEmail() {
 
+                        let name = valueById('name')
+                        let email = valueById('email')
+                        let subject = valueById('subject')
+                        let text = valueById('comments')
+
+                        Email.send({
+                                Host: "smtp.gmail.com",
+                                Username: "ignacio.antu@gmail.com",
+                                Password: "tqrajfbsvevxeemy",
+                                To: 'ignacio.antu@gmail.com',
+                                From: email,
+                                Subject: name + " ; ; " + subject,
+                                Body: text,
+                            })
+                            .then(function(message) {
+                                alert("El mensaje se envió correctamente. Muchas gracias! ")
+                            });
+                    }
+
+                    function valueById(element) {
+                        return document.getElementById(element).value
+                    }
+                </script>
+
+                <!-- End Email sending -->
             </div>
-            <!-- Email sending-->
-
-            <script src="https://smtpjs.com/v3/smtp.js"></script>
-            <script type="text/javascript">
-                function sendEmail() {
-
-                    let name = valueById('name')
-                    let email = valueById('email')
-                    let subject = valueById('subject')
-                    let text = valueById('comments')
-
-                    Email.send({
-                            Host: "smtp.gmail.com",
-                            Username: "ignacio.antu@gmail.com",
-                            Password: "tqrajfbsvevxeemy",
-                            To: 'ignacio.antu@gmail.com',
-                            From: email,
-                            Subject: name + " ; ; " + subject,
-                            Body: text,
-                        })
-                        .then(function(message) {
-                            alert("El mensaje se envió correctamente. Muchas gracias! ")
-                        });
-                }
-
-                function valueById(element) {
-                    return document.getElementById(element).value
-                }
-            </script>
-
-            <!-- End Email sending -->
-        </div>
-    </section>
-    <!-- End Contact Section -->
+        </section>
+        <!-- End Contact Section -->
 
     </main>
     <!-- End #main -->
@@ -187,28 +184,7 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js "></script>
-    <script>
-        var year = new Date().getFullYear();
-        var month = new Date().getMonth() + 1;
-        var day = new Date().getDate();
-        var yo1 = "Hola, tengo ";
-        var yo2 = " años y me considero un entusiasta de la programación, videojuegos y tecnología en general. Actualmente estoy "
-        var EstudioActual = " estudiando Tecnico Superior en Programación en la UTN de Pacheco. "
-        var yo3 = "Decidí hacer este tipo de currículum ya que me parecía la mejor forma de demostrar lo que sé y a su vez poder practicar. "
-        if (year > 1993 && month >= 1 && day >= 18) {
 
-            var NewYear = year - 1993 + 1;
-            document.getElementById("yearR").innerHTML = yo1 + " " +
-                NewYear + " " + yo2 + " " + EstudioActual + " " + yo3;
-        } else
-        if (year > 1993 && month >= 1) {
-
-            var NewYear = year - 1993;
-            document.getElementById("yearR").innerHTML = yo1 + " " +
-                NewYear + " " + yo2 + " " + EstudioActual + " " + yo3;
-        }
-        document.getElementById("day").innerHTML = NewYear;
-    </script>
 </body>
 
 </html>
