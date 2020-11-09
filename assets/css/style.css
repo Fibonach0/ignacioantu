@@ -125,6 +125,10 @@ h6 {
     color: #fff;
     text-decoration: none;
 }
+#aclaracion {
+    font-size: 9px;
+    font-color: grey;
+}
 
 #main {
     margin-left: 300px;
