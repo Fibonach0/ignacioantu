@@ -533,13 +533,13 @@
         var yo3 = "Decidí hacer este tipo de currículum ya que me parecía la mejor forma de demostrar lo que sé y a su vez poder practicar. "
         if (year > 1993 && month >= 1 && day >= 18) {
 
-            var NewYear = year - 1993 + 1;
+            var NewYear = year - 1993;
             document.getElementById("yearR").innerHTML = yo1 + " " +
                 NewYear + " " + yo2 + " " + EstudioActual + " " + yo3;
         } else
         if (year > 1993 && month >= 1) {
 
-            var NewYear = year - 1993;
+            var NewYear = year - 1993 + 1;
             document.getElementById("yearR").innerHTML = yo1 + " " +
                 NewYear + " " + yo2 + " " + EstudioActual + " " + yo3;
         }
