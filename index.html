@@ -531,21 +531,21 @@
         var yo2 = " años y me considero un entusiasta de la programación, videojuegos y tecnología en general. Actualmente estoy "
         var EstudioActual = " estudiando  Tecnicatura Universitaria en Programación en la UTN de Pacheco. "
         var yo3 = "Decidí hacer este tipo de currículum ya que me parecía la mejor forma de demostrar lo que sé y a su vez poder practicar. "
-        if (year > 1993 && month >= 1 && day >= 18) {
+        if ( month >= 1 && day >= 18) {
 
             var NewYear = year - 1993;
             document.getElementById("yearR").innerHTML = yo1 + " " +
                 NewYear + " " + yo2 + " " + EstudioActual + " " + yo3;
         } else
-        if (year > 1993 && month = 1 && day < 18) {
+        if ( month > 1 ) {
 
-            var NewYear = year - 1993 - 1;
+            var NewYear = year - 1993;
             document.getElementById("yearR").innerHTML = yo1 + " " +
                 NewYear + " " + yo2 + " " + EstudioActual + " " + yo3;
         }else
-        if (year > 1993 && month > 1 ) {
+        if ( month = 1 && day < 18) {
 
-            var NewYear = year - 1993;
+            var NewYear = year - 1993 - 1;
             document.getElementById("yearR").innerHTML = yo1 + " " +
                 NewYear + " " + yo2 + " " + EstudioActual + " " + yo3;
         }
