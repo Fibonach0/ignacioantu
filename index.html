@@ -537,9 +537,9 @@
             document.getElementById("yearR").innerHTML = yo1 + " " +
                 NewYear + " " + yo2 + " " + EstudioActual + " " + yo3;
         } else
-        if (year > 1993 && month >= 1) {
+        if (year > 1993 && month = 1 && day < 18) {
 
-            var NewYear = year - 1993 + 1;
+            var NewYear = year - 1993 - 1;
             document.getElementById("yearR").innerHTML = yo1 + " " +
                 NewYear + " " + yo2 + " " + EstudioActual + " " + yo3;
         }
